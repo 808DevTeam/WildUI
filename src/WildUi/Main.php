@@ -32,7 +32,7 @@ class Main extends PluginBase implements Listener {
 					if($result === null){
 						return true;
 					}
-						switch($result)
+						switch($result){
 							case 0:
 								$command = "wild";
 								$this->getServer()->getCommandMap()->dispatch($sender, $command);
