@@ -1,6 +1,6 @@
 <?php
 
-namespace WildUi;
+namespace WildUI;
 
 use pocketmine\Server;
 use pocketmine\plugin\PluginBase;
@@ -45,7 +45,7 @@ class Main extends PluginBase implements Listener {
 					$form->sendToPlayer($sender);
 				}
 				else{
-					$sender->sendMessage(TextFormat::RED . "Use this Command in-game.");
+					$sender->sendMessage(TextFormat::RED . "Use This Command In-Game.");
 					return true;
 				}
 			break;
