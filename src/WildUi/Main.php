@@ -34,7 +34,7 @@ class Main extends PluginBase implements Listener {
 					}
 						switch($result){
 							case 0:
-								$command = "wild";
+								$command = "wild, wildui";
 								$this->getServer()->getCommandMap()->dispatch($sender, $command);
 							break;
 						}
