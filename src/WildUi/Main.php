@@ -34,12 +34,12 @@ class Main extends PluginBase implements Listener {
 					}
 						switch($result){
 							case 0:
-								$command = "wild, wildui";
+								$command = "wild";
 								$this->getServer()->getCommandMap()->dispatch($sender, $command);
 							break;
 						}
 					});
-					$form->setTitle("RebirthPE WildUI Screen");
+					$form->setTitle("Server WildUI");
 					$form->setContent("Please choose your destination.");
 					$form->addButton(TextFormat::BOLD . "Wild");	
 					$form->sendToPlayer($sender);
